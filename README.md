@@ -1,6 +1,7 @@
 # Vagrant Aws Credentials
 
-This plugin intent is to serve as a bridge between any tool that follows the [AWS CLI Configuration Settings and Precedence](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#config-settings-and-precedence) and the `vagrant-aws` plugin configuration for AWS acess.
+This plugin allows Vagrant to read your AWS Credentials, just configure which AWS profile to use.
+It serves as an alternative while this [pull request](https://github.com/mitchellh/vagrant-aws/pull/441) isn't merged to `vagrant-aws` plugin.
 
 ## Installation
 
