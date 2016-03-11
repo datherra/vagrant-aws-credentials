@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "vagrant-aws-credentials"
   spec.version       = VagrantPlugins::AwsCredentials::VERSION
   spec.authors       = ["Rafa Nunes"]
-  spec.email         = ["datherra@yahoo.com.br"]
+  spec.email         = ["datherra@gmail.com.br"]
 
   spec.summary       = %q{Allows .aws/credentials info to be used on Vagrantfile.}
   spec.description   = %q{If you manage your AWS credentials via different profiles on default aws-cli, this plugin will allow you to use these credentials on you Vagrantfile.}
