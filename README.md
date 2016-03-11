@@ -16,9 +16,14 @@ config.aws_credentials.profile = "default"
 
 Config your vagrant-aws plugin on the Vagrantfile to search for secrets on the following environment variables:
 ```ruby
-aws.access_key_id             = ENV["VAGRANT_AWS_ACCESS_KEY"]
-aws.secret_access_key         = ENV["VAGRANT_AWS_SECRET_ACCESS_KEY"]
-aws.session_token             = ENV["VAGRANT_AWS_SESSION_TOKEN"]
+  config.aws_credentials.profile = "default"
+  config.vm.provider :aws do |aws, override|
+
+    aws.access_key_id             = ENV["VAGRANT_AWS_ACCESS_KEY"]
+    aws.secret_access_key         = ENV["VAGRANT_AWS_SECRET_ACCESS_KEY"]
+    aws.session_token             = ENV["VAGRANT_AWS_SESSION_TOKEN"]
+    ...
+  end
 ```
 
 ## Development
