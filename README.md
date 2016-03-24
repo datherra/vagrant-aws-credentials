@@ -1,7 +1,12 @@
 # Vagrant Aws Credentials
 
 This plugin allows Vagrant to read your AWS Credentials, just configure which AWS profile to use.
-It serves as an alternative while this [pull request](https://github.com/mitchellh/vagrant-aws/pull/441) isn't merged to `vagrant-aws` plugin.
+It serves as an alternative while this [pull request](https://github.com/mitchellh/vagrant-aws/pull/441)* isn't merged to `vagrant-aws` plugin.
+
+*_The pull request above was merged. This plugin isn't need anymore, yay \o/_
+_Check vagrant-aws plugin [Quickstart session](https://github.com/mitchellh/vagrant-aws#quick-start) for instructions on how to configure this same feature on it._
+
+I'm mainly keeping this project here to serve as reference to myself on how to develop vagrant plugins.
 
 ## Installation
 
